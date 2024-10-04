@@ -3,7 +3,7 @@ include("login_required");
 include("dbconnect.php");
 
 //variáveis
-$id = $_SESSION['userdata']['id']
+$id = $_SESSION['userdata']['id'];
 $nome = $_POST['nome'];
 $senha = password_hash($_POST['senha'], PASSWORD_DEFAULT);
 $email = $_POST['email'];
