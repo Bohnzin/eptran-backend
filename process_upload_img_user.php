@@ -14,5 +14,5 @@
         }
         
         $img_url = 'http://localhost/chathaus-site/'.$destino;    
-        // Falta terminar!
+        // Falta terminar!!
 ?>
